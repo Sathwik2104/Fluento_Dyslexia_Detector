@@ -522,7 +522,7 @@ Several studies show that learning difficulties lead to a significant underestim
 #     st.write(str)
 #     st.write(dictated_words)
   
-# @st.cache(suppress_st_warning=True)
+# @st.cache_data(suppress_st_warning=True)
 # def bind_socket():
 #     string =  random_seq()
 #     random_str = st.subheader(string)
@@ -610,7 +610,7 @@ with tab4:
 
 
 
-        @st.cache
+        @st.cache_data
         def bind_socket():
         # This function will only be run the first time it's called
             dictated_words = dictate_10_words(level)
