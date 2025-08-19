@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+
+#added by me
+
+model_training/
+myenv/
+temp.jpg
+done.jpg
